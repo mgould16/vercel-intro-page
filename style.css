@@ -8,24 +8,11 @@ html, body {
     background-color: black; /* Fallback color */
 }
 
-/* Background Image Styling */
-.background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: -1;
-}
-
-.background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures the image fully covers the page */
+body {
+    background-image: url('https://res.cloudinary.com/markg16/image/upload/v1740040728/q2qrdj3uhm1tozgrywqm.png');
+    background-size: cover; /* Makes the image cover the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
 }
 
 /* Centering Content */
